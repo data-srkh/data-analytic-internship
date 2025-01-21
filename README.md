@@ -20,7 +20,7 @@ This project focuses on cleaning and preprocessing data for analysis. Here's a b
 * This ensured data consistency and facilitated further analysis.
 ---
 
-# Task 2
+## Task 2
 
 ### 1. Data Loading and Initial Exploration  
 - Loaded and explored data from `QVI_data.csv`.  
