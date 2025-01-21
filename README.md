@@ -1,5 +1,5 @@
 # data-analytic-internship
-## Internship Tasks: Data Cleaning and Preprocessing
+## Task 1
 
 This project focuses on cleaning and preprocessing data for analysis. Here's a breakdown of the tasks performed:
 
@@ -18,3 +18,38 @@ This project focuses on cleaning and preprocessing data for analysis. Here's a b
 
 * Converted relevant columns in both DataFrames to their appropriate data types using `pd.to_numeric()` and `pd.to_datetime()`.
 * This ensured data consistency and facilitated further analysis.
+---
+
+# Task 2
+
+### 1. Data Loading and Initial Exploration  
+- Loaded and explored data from `QVI_data.csv`.  
+- Reviewed data structure, column names, and initial statistics to understand its contents.  
+
+
+
+### 2. Filtering Trial Stores  
+- Filtered trial stores (77, 86, and 88) for detailed analysis.  
+- Added a new column to group transactions by month for easier aggregation.  
+
+
+
+### 3. Aggregating Monthly Metrics  
+- Calculated key monthly metrics for trial stores, including:  
+  - Total sales.  
+  - Total unique customers.  
+  - Total transactions.  
+  - Average transactions per customer.  
+
+
+### 4. Finding Control Stores  
+- Identified potential control stores for trial store comparison by analyzing correlations of monthly metrics.  
+- Focused on metrics such as total sales and total customers to determine similarity.  
+
+
+
+### 5. Comparing Trial and Control Stores  
+- Compared key performance metrics between trial and control stores:  
+  - Total unique customers.  
+  - Average transactions per customer.  
+- Observed no significant differences due to the absence of suitable control stores with sufficient data overlap.  
